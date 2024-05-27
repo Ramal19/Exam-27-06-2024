@@ -1,0 +1,153 @@
+$navText: #3a3a3a;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-family: "Open Sans", sans-serif;
+    position: fixed;
+    background-color: #fff;
+    top: 50px;
+    left: 30px;
+    right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .img {
+
+        display: flex;
+        align-items: center;
+        color: $navText;
+
+        h1 {
+
+            text-transform: uppercase;
+        }
+    }
+
+    ul {
+
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        list-style-type: none;
+        color: $navText;
+        font-size: 14px;
+
+    }
+
+    .menu {
+
+        display: none;
+    }
+
+    .number {
+
+        display: flex;
+        align-items: center;
+        background-color: #ffb606;
+        padding: 40px;
+        color: #fff;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1069px) {
+
+    .navbar {
+
+        .number {
+            display: none;
+        }
+    }
+
+    .sectionThree {
+
+        .wrap {
+
+            display: flex;
+            flex-wrap: wrap;
+            width: 1069;
+
+            .img {
+
+                width: 250px;
+            }
+        }
+    }
+
+    header {
+
+        display: flex;
+        flex-direction: column;
+
+        .container {
+
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .sectionOne {
+
+        display: flex;
+        flex-direction: column;
+
+        .data_container {
+
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .sectionTwo {
+
+        display: flex;
+        flex-direction: column;
+
+        .text__left {
+
+            width: 100%;
+        }
+
+        .text__right {
+
+            width: 100%;
+            padding: 50px 0;
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .navbar {
+
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        right: 30px;
+        left: 30px;
+        top: 50px;
+
+        ul {
+
+            display: none;
+        }
+
+        .menu {
+            display: flex;
+            font-size: 36px;
+        }
+    }
+
+
+}

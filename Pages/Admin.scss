@@ -1,0 +1,43 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.table_container {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+
+
+    table,
+    tr,
+    th,
+    td {
+
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+
+    table {
+
+        width: 80%;
+
+        img {
+
+            width: 200px;
+            height: 200px;
+        }
+
+        td{
+
+            padding: 20px;
+        }
+
+    }
+
+}

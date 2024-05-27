@@ -1,0 +1,29 @@
+.data__top {
+    width: 100%;
+    padding: 100px 50px;
+
+    .data_container {
+
+        display: flex;
+        gap: 30px;
+
+        .data {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            img {
+
+                width: 400px;
+                height: 300px;
+            }
+
+            p {
+
+                color: #a5a5a5;
+            }
+        }
+    }
+}

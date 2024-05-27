@@ -1,0 +1,348 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 300px 0;
+
+    .text {
+
+        display: flex;
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 100px;
+
+        h1 {
+            span {
+
+                background-color: #fbb606;
+            }
+        }
+    }
+
+    .container {
+
+        display: flex;
+        gap: 50px;
+        font-family: "Open Sans", sans-serif;
+
+        .container__item {
+
+            display: flex;
+            background-color: #1a1a1a;
+            padding: 50px;
+            align-items: center;
+            gap: 20px;
+
+            img {
+
+                width: 100px;
+                height: 100px;
+            }
+
+            .text__item {
+
+                display: flex;
+                flex-direction: column;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.sectionOne {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    gap: 30px;
+    font-family: "Open Sans", sans-serif;
+
+    .text__top {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .line {
+
+            width: 50px;
+            height: 1px;
+            border: 1px solid #fbb606;
+        }
+
+        h1 {
+
+            font-family: "Open Sans", sans-serif;
+        }
+    }
+
+    .data_container {
+
+        display: flex;
+        gap: 30px;
+
+        .data {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            img {
+
+                width: 400px;
+                height: 300px;
+            }
+
+            p {
+
+                color: #a5a5a5;
+            }
+        }
+    }
+}
+
+.sectionTwo {
+
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+
+    .text__left {
+
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fbb606;
+        padding: 200px 100px;
+        gap: 20px;
+        color: #fff;
+
+        h1 {
+
+            font-size: 36px;
+            text-align: center;
+
+            span {
+
+                color: #1a1a1a;
+            }
+        }
+
+        p {
+
+            text-align: center;
+            font-size: 16px;
+        }
+
+        button {
+
+            border: none;
+            padding: 20px 50px;
+            background-color: #1a1a1a;
+            color: #fff;
+            font-size: 16px
+        }
+    }
+
+    .text__right {
+
+        width: 50%;
+        background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        h1 {
+
+            font-size: 36px;
+        }
+
+        form {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            input[type="text"] {
+
+                width: 700px;
+                height: 50px;
+                padding: 20px;
+                font-size: 16px;
+                outline: none;
+
+                ::placeholder {
+
+                    color: #1a1a1a;
+                }
+            }
+
+            input[type="submit"] {
+
+                width: 700px;
+                height: 50px;
+                background-color: #fbb606;
+                color: #fff;
+                font-size: 16px;
+                border: none;
+            }
+        }
+    }
+}
+
+.sectionThree {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 100px 0;
+    gap: 50px;
+
+    .wrap {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 50px;
+        justify-content: center;
+
+        .img {
+
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            gap: 20px;
+
+            img {
+
+                width: 100px;
+                height: 100px;
+
+            }
+        }
+    }
+}
+
+.sectionFour {
+
+    background-image: url("https://preview.colorlib.com/theme/course/images/testimonials_background.jpg");
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+
+    .background {
+
+        background-color: #1a1a1a70;
+        padding: 200px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .top{
+
+            font-size: 36px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .line{
+
+                width: 50px;
+                height: 2px;
+                border: 2px solid #fbb606;
+            }
+        }
+
+        .text {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+
+            span{
+
+                color: #fbb606;
+                font-size: 36px;
+            }
+
+            p {
+                width: 60%;
+                text-align: center;
+                font-size: 16px;
+            }
+
+            img {
+
+                border-radius: 9999px;
+                width: 150px;
+                height: 150px;
+            }
+
+            h1 {
+
+                color: #fbb606;
+            }
+        }
+
+    }
+}
+
+.sectionFive{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 100px 0;
+
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+        gap: 20px;
+        div{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .date{
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: #fbb606;
+                border: 2px solid #fbb606;
+                padding: 5px 15px;
+                font-size: 36px;
+            }
+            .text{
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 20px;
+
+            }
+        }
+    }
+}
